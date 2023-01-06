@@ -2,6 +2,13 @@
 
 A project to serve consistent type from the server to the client.
 
+- pnpm workspace
+- swc
+- typescript
+- fetch
+- fastify
+- typebox
+
 # Packages
 
 ## `browser`
