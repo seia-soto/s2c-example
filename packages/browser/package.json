@@ -1,0 +1,17 @@
+{
+  "name": "browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm up --filter types && swc ./src -d ./out && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "types": "workspace:^1.0.0"
+  }
+}

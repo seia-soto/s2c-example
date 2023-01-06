@@ -1,0 +1,17 @@
+{
+  "name": "types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "swc ./src -d ./out && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sinclair/typebox": "^0.25.16"
+  }
+}
